@@ -17,7 +17,7 @@ public class UserUnitTest {
         User userOne = new User();
         userOne.setUserId(1L);
         userOne.setFirstName("User firstName");
-        userOne.setLastName("User full firstName");
+        userOne.setLastName("User lastName");
         userOne.setEmail("email@email.com");
         userOne.setPassword("password");
 
