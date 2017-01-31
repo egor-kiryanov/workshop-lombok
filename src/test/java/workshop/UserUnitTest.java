@@ -29,6 +29,7 @@ public class UserUnitTest {
         userTwo.setPassword(userOne.getPassword());
 
         assertThat(userTwo, is(userOne));
+        assertThat(userOne.getFullName(), is(userOne.getFirstName() + userOne.getLastName()));
     }
 
     @Test
