@@ -3,14 +3,14 @@ package workshop;
 import org.junit.Test;
 
 /**
- * HelloWorldTestUnitTest
+ * EmptyClassTestUnitTest
  *
  * @author egor.kirianov
  */
-public class HelloWorldTestUnitTest {
+public class EmptyClassTestUnitTest {
     @Test
     public void testHelloWorld() throws Exception {
-//        HelloWorld emptyClass = new HelloWorld();
+//        EmptyClass emptyClass = new EmptyClass();
 //        emptyClass.helloWorld();
     }
 }

@@ -6,6 +6,5 @@ package workshop;
  *
  * @author egor.kirianov
  */
-//@HelloWorld
-public class HelloWorld {
+public class EmptyClass {
 }
