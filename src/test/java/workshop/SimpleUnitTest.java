@@ -15,9 +15,9 @@ public class SimpleUnitTest {
     public void testBuilding() {
         final Simple pojo = Simple.of("test").number(5).count(2);
 
-        assertThat(pojo.getCaption(), is("test"));
-        assertThat(pojo.getNumber(), is(5));
-        assertThat(pojo.getCount(), is(2));
+        assertThat(pojo.caption(), is("test"));
+        assertThat(pojo.number(), is(5));
+        assertThat(pojo.count(), is(2));
     }
 
     @Test(expected = NullPointerException.class)

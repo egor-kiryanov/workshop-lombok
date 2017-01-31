@@ -32,23 +32,15 @@ public class Simple {
         return this;
     }
 
-    public String getCaption() {
+    public String caption() {
         return caption;
     }
 
-    public int getNumber() {
+    public int number() {
         return number;
     }
 
-    public int getCount() {
+    public int count() {
         return count;
-    }
-
-    public void setNumber(int number) {
-        this.number = number;
-    }
-
-    public void setCount(int count) {
-        this.count = count;
     }
 }
