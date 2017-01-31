@@ -10,7 +10,6 @@ import org.junit.Test;
  */
 public class ImmutableObjectUnitTest {
     @Test
-//    @SneakyThrows
     public void testImmutableObject() {
         Object fieldOne = new Object();
         Object fieldTwo = new Object();
